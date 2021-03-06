@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: Quicksand;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    > *{
+        margin: 2rem 0;
+        padding: 1rem 1rem;
+    }
+
+    .unique_response {
+        font-family: 'DotGothic16';
+    }
+
+    .title {
+        font-family: 'Space Mono';
+
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+
+        * {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .apiStatus {
+        margin-top: 2rem;
+
+        .status {
+            font-weight: bold;
+
+        }
+    }
+    .newPlayer{
+        input{
+            border: 1px solid black;
+            margin: 1rem 0rem;
+        }
+        button{
+            display:block;
+            border: 1px solid black;
+        }
+
+    }
+}

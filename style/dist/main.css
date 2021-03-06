@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  font-family: Quicksand;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 2rem;
+  width: 100%;
+}
+body > * {
+  margin: 2rem 0;
+  padding: 1rem 1rem;
+}
+body .unique_response {
+  font-family: "DotGothic16";
+}
+body .title {
+  font-family: "Space Mono";
+}
+body .welcome {
+  display: flex;
+  flex-direction: column;
+}
+body .welcome * {
+  width: 100%;
+  text-align: center;
+}
+body .apiStatus {
+  margin-top: 2rem;
+}
+body .apiStatus .status {
+  font-weight: bold;
+}
+body .newPlayer input {
+  border: 1px solid black;
+  margin: 1rem 0rem;
+}
+body .newPlayer button {
+  display: block;
+  border: 1px solid black;
+}
