@@ -22,6 +22,8 @@ function inputCheck(x) {
     return x.json();
   }).then(function (x) {
     newUserDisplay.innerText += "username: ".concat(x.user.username, " \n token: ").concat(x.token, " \n please immediatley record username and token");
+  })["catch"](function (x) {
+    return alert('please choose different username');
   });
 }
 

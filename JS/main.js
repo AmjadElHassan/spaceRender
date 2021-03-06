@@ -19,6 +19,7 @@ function inputCheck(x){
     .then(x=>{
         newUserDisplay.innerText += `username: ${x.user.username} \n token: ${x.token} \n please immediatley record username and token`;
     })
+    .catch(x=>alert('please choose different username'))
 }
 
 serverCheck()
